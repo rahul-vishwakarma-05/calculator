@@ -4,6 +4,8 @@ const eq = document.querySelector('.equal');
 const Ac = document.querySelector('#Ac');
 const dlt =  document.querySelector('#dlt');
 
+result.disabled = true;
+
 btns.forEach((element , i) => {
     element.addEventListener('click', () => {
       result.value += element.value;
