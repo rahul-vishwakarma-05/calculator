@@ -25,13 +25,14 @@ main > .result{
     display: block;
     margin:  0 auto;
     height:6rem;
+    width: 75%;
     text-align: end;
     font-size: 1.5rem;
     padding-right: 3rem;
     outline: none;
     text-decoration: none;
     border: none;
-    box-shadow: 5px 5px 4px rgba(128, 128, 128, 0.212) inset  ;
+    box-shadow: 5px 5px 4px rgba(128, 128, 128, 0.212) inset , 4px 4px 4px rgba(128, 128, 128, 0.212)   ;
     border-radius: 10px;
     letter-spacing: .2rem;
 }
